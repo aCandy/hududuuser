@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neusoft.huduoduoapp"
+    android:versionCode="1"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- renren sso Permission for Unit Test -->
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <!-- 添加可以向外拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+
+    <!-- 以下百度地图权限 -->
+    <!-- 修改声音设置信息 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 获取网络信息状态，如当前的网络连接是否有效 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问网络连接，可能产生GPRS流量 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 改变WiFi状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 获取当前WiFi接入的状态以及WLAN热点的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序获取当前或最近运行的应用 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 允许程序写入外部存储，如SD卡上写文件 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许读写系统设置项 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 访问电话状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!-- end -->
+    <application
+        name="com.jizhi.hududu.uclient.application.UclientApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:theme="@style/MyTheme" >
+        <meta-data
+            android:name="channelid"
+            android:value="huawei_10" />
+        <!-- 启动页面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.LoadingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wxe30ec79457bba3d0" />
+            </intent-filter>
+        </activity>
+        <!-- 第一次进入  引导页 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.GuideActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的卡包 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.MyCardBagActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 过期的优惠券 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.OverdueMyCardBagActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 服客资料 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.FKDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 分享页面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.ShareAppActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 附近地址 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <!-- 订单评价 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.MyOrderEvaluate"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <!-- 主页面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <!-- 百度地图相关 key hcs fEQo99h2fHVM4a7GHRrwLQ5I xj agXy55kR3w4O3MR30Xc3MM35 -->
+        <!-- 正式key:Cl0sLKA6RK8M1zfXRZpGavfE -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ykRAgg6fd9r02GRISdA9kTE3x7FhFiiD" />
+        <!-- 附近地址 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.NearbyAddrActivity"
+            android:screenOrientation="portrait" />
+        <!-- 订单详情 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.MyOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 订单评价 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.EvaluateDeatilActivity"
+            android:screenOrientation="portrait" />
+        <!-- 读取网页 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.LoadUrlActivity"
+            android:screenOrientation="portrait" />
+        <!-- 关于我们 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.AboutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 厨师列表 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.ChooseChefListViewActivity"
+            android:screenOrientation="portrait" />
+        <!-- 买菜ViewPager -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.BuyVegetablesViewPagerActivity"
+            android:screenOrientation="portrait" />
+        <!-- 菜品GridView -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.DishesGridActivity"
+            android:screenOrientation="portrait" />
+        <!-- 菜品图片 缩放 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.DishesZoomActivity"
+            android:screenOrientation="portrait" />
+        <!-- 支付页面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.PayForActivity"
+            android:screenOrientation="portrait" />
+        <!-- 家政保洁 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.HouseholdCleaningMainActivity"
+            android:screenOrientation="portrait" />
+        <!-- 帮我买菜下单界面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.BuyVegetablesMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <!-- 登录验证 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- 菜品列表 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.BuyVegetableListViewActivity"
+            android:screenOrientation="portrait" />
+        <!-- 手洗衣服 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.HandWasingMainActivity"
+            android:screenOrientation="portrait" />
+        <!-- 生鲜查看用户报价详情 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.VagetableActivity"
+            android:screenOrientation="portrait" />
+        <!-- 吃饭了提交订单页面 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.DinnerMainActivity"
+            android:screenOrientation="portrait" />
+        <!-- 用户协议 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.AgreementActivity"
+            android:screenOrientation="portrait" />
+        <!-- 意见箱 -->
+        <activity
+            android:name="com.jizhi.hududu.uclient.main.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weixin.paydemo.PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weixin.paydemo.WXPay"
+            android:screenOrientation="portrait" />
+
+        <!-- 微信支付结果回调页面 -->
+        <activity
+            android:name="com.neusoft.huduoduoapp.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <!-- alipay sdk end -->
+
+
+        <!-- 抢单Service -->
+        <service android:name="com.jizhi.hududu.uclient.service.MsgService" >
+            <intent-filter>
+                <action android:name="com.example.communication.MSG_ACTION" />
+            </intent-filter>
+        </service>
+        <!-- 调用微信支付广播接收器 -->
+        <receiver android:name="net.sourceforge.simcpux.AppRegister" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 友盟AppKey， 需要替换成你自己的 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="4eaee02c527015373b000003" >
+        </meta-data>
+        <!-- 4eaee02c527015373b000003 -->
+        <!-- android:value="52a98cf856240b902211203e" > -->
+        <!-- *************************    分享相关的注册 START **************************** -->
+        <!-- 分享内容编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+-
+        <!-- 腾讯SSO授权的Activity注册 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 微信回调activity -->
+        <activity
+            android:name="com.neusoft.huduoduoapp.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+    </application>
+
+</manifest>

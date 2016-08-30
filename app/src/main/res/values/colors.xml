@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_seleted">#F9C700</color>
+    <color name="title_no_seleted">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_round_bg">#A8A8A8</color>
+    <color name="gray_round_bg_big">#D83560</color>
+    <color name="gray_bg">#E0E0E0</color>
+    <color name="yellow_round">#ff8B00</color>
+    <color name="grens_light">#22a262</color>
+    <color name="color_bar">#009b4d</color>
+    <color name="gray_text_light">#8e8e8e</color>
+    <color name="blue_title">#60c792</color>
+    <color name="red">#D2001F</color>
+    <color name="evaluation">#515151</color>
+    <color name="evaluation_11">#5b5b5b</color>
+    <color name="show_order">#f4a218</color>
+    <color name="or">#f09b03</color>
+ <!-- 橙色 -->
+    <color name="or1">#efa001</color>
+ <!-- 橙色 -->
+    <color name="orange_color">#FF9900</color>
+ <!-- 橙色 -->
+    <color name="black_color">#000000</color>
+ <!--  -->
+    <color name="tou_ming">#3200</color>
+ <!--  -->
+
+    <color name="service_content">#fe5515</color>
+ <!--  -->
+    <color name="money">#f19c06</color>
+    
+    
+    
+ <!--  -->
+    <color name="back">#f7f7f7</color>
+ <!--  -->
+    <color name="gray_5">#4d4d4d</color>
+    <color name="evaluation_tttt">#f59601</color>
+ <!--  -->
+
+    <color name="about_text">#737e82</color>
+ <!--  -->
+    <color name="blue_0.4">#33000000</color>
+    <color name="gray_6">#525151</color>
+    <color name="orange">#ee9c05</color>
+    <color name="green11">#2ba062</color>
+    <color name="line_color">#E2E2E2</color>
+ <!--  -->
+    <color name="line_color_submit">#30a768</color>
+ <!--  -->
+    <color name="gray_light">#444444</color>
+    <color name="gray_light1">#e8e8e8</color>
+    <color name="black_color_text">#353535</color>
+    <color name="gray1">#535252</color>
+    <color name="gray2">#434343</color>
+    <color name="gray3">#454847</color>
+ <!--  -->
+
+    <color name="white">#FFFFFF</color>
+    <color name="orrrr">#F1AD42</color>
+    <color name="green">#60c892</color>
+    <color name="green1">#51bd86</color>
+    <color name="household_cleaning">#444444</color>
+    <color name="eat1">#888787</color>
+ <!--  -->
+    <color name="eat2">#716f6d</color>
+ <!--  -->
+    <color name="eat3">#d4d4d4</color>
+ <!--  -->
+    <color name="eat4">#f0ad40</color>
+ <!--  -->
+    <color name="eat5">#f1ae41</color>
+ <!--  -->
+
+    <color name="grays">#CECECE</color>
+    <color name="yellow">#faa001</color>
+    <color name="gray_deep">#8c8c8c</color>
+
+    <!-- 我的卡包 -->
+    
+	<color name="card_money_green">#73cc9d</color>
+    <color name="card_money_yello">#f8b651</color>
+    <color name="card_money_gray">#868686</color>
+    
+    <color name="add">#c9c9c9</color>
+    
+    <color name="card_date_green">#61C693</color>
+    <color name="card_date_yello">#f9ad38</color>
+    
+    <color name="pressgreen">#302bb06d</color>
+    <color name="nomalgreen">#ff2bb06d</color>
+    
+    
+    <color name="presswhite">#30ffffff</color>
+    <color name="nomalwhite">#ffffffff</color>
+    
+    
+    <color name="pressgray">#30f7f7f7</color>
+    <color name="nomalgray">#fff7f7f7</color>
+    
+
+
+</resources>

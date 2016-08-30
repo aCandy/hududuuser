@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@id/service_project"
+            style="@style/menu1"
+            android:text="@string/cleaning"
+            
+             />
+
+        <TextView
+            android:id="@+id/hour_price"
+            style="@style/menu2"
+            android:layout_alignTop="@id/service_project"
+            android:layout_toRightOf="@id/service_project" />
+
+        <TextView
+            android:id="@+id/hour"
+            style="@style/menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/service_project"
+            android:text="2小时" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@id/price"
+            style="@style/menu1"
+            android:text="@string/price" />
+
+        <TextView
+            android:id="@+id/tv_actType"
+            style="@style/menu2"
+            android:layout_alignBottom="@id/price"
+            android:layout_toRightOf="@id/price"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@id/current_price"
+            style="@style/menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="25dp"
+            android:text="￥9.90"
+            android:textColor="@color/orange_color" />
+
+        <TextView
+            android:id="@id/original_price"
+            style="@style/menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/current_price"
+            android:layout_centerInParent="true"
+            android:text="原价￥29.90"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@id/real_price_text"
+            style="@style/menu1"
+            android:text="@string/real_price" />
+
+        <TextView
+            android:id="@id/real_price_value"
+            style="@style/menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/real_price_text"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/orange_color" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="0dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/pay_for_text"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/zhifubao_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/zhifubao" />
+
+        <TextView
+            android:id="@id/zhifubao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/zhifubao_image"
+            android:text="@string/zhifubao"
+            android:textSize="@dimen/text_size_16" />
+
+        <CheckBox
+            android:id="@+id/zhifubao_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/zhifubao_image"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/checked"
+            android:button="@null"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="0dp"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/weixin_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/weixin" />
+
+        <TextView
+            android:id="@id/weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/weixin_image"
+            android:text="@string/weixin"
+            android:textSize="@dimen/text_size_16" />
+
+        <CheckBox
+            android:id="@+id/weixin_checked"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/weixin_image"
+            android:layout_marginRight="30dp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="0dp"
+        android:background="@color/line_color" />
+
+    <Button
+        android:id="@id/sure_pay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/yuan_shape"
+        android:text="@string/sure_pay"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_18" />
+
+</LinearLayout>

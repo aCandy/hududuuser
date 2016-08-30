@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/vegetables_linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/vegetables"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vegetables"
+                    android:textColor="@color/green1"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fruit_linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/fruit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fruit"
+                    android:textColor="@color/black_color_text"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fish_linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/fish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fish"
+                    android:textColor="@color/black_color_text"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meet_linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/meet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/meet"
+                    android:textColor="@color/black_color_text"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/circle" />
+    </FrameLayout>
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/frameLayout1"
+        android:background="#e1e1e1" />
+    <View
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/background"
+        android:background="#f7f7f7" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/back"
+        android:layout_marginBottom="61dp"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="#d4d4d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="预计花费 :"
+                    android:textColor="@color/gray_6"
+                    android:textSize="@dimen/text_size_15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="￥"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/text_size_15" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="0.00"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/text_size_15" />
+                <TextView
+                    android:id="@+id/include_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/text_size_10" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="(温馨提示:菜篮中可修改菜品数量)"
+                android:textColor="@color/green11"
+                android:textSize="@dimen/text_size_10" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutBottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7" 
+            android:background="@color/green1"
+            >
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/basket_01" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@id/image"
+                android:text="菜篮子"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_15" />
+
+            <TextView
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@id/text"
+                android:text="("
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@id/left"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@id/number"
+                android:text=")"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

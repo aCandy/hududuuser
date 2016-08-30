@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+    <!--引导页-->
+
+    <!--引导页的ViewPager-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <!--分割线(屏幕最底部显示)，尚未知存在意义-->
+    <View
+        android:id="@+id/hiddenView"
+        android:layout_width="5dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true" />
+
+    <!--页面指示器(小白点、小灰点)的LinearLayout-->
+    <LinearLayout
+        android:id="@+id/guide_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hiddenView"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+         >
+
+        <!--复选框CheckBox-->
+        <CheckBox
+            android:id="@+id/guide_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/guide"
+            android:checked="true"
+             />
+
+        <CheckBox
+            android:id="@+id/guide_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/guide"
+            android:button="@null"
+             />
+
+        <CheckBox
+            android:id="@+id/guide_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/guide"
+            android:button="@null"
+             />
+
+        <CheckBox
+            android:id="@+id/guide_4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/guide"
+            android:button="@null"
+             />
+
+        <CheckBox
+            android:id="@+id/guide_5"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/guide" 
+            android:button="@null"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

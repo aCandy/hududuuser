@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+         >
+        <View
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/black_circle"
+            android:layout_marginTop="5dp"
+             />
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="仅限呼多多使用"
+            android:textColor="#565656"
+            android:textSize="@dimen/text_size_12"
+            android:layout_gravity="center_vertical"
+             />
+    </LinearLayout>
+
+</LinearLayout>

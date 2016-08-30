@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titlebar_height">50dip</dimen>
+	<dimen name="titlebar_height1">51dip</dimen>
+    <!-- 家政保洁 -->
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="menu_image_width">20dp</dimen>
+    <dimen name="menu_image_height">20dp</dimen>
+    <dimen name="arrow_image_width">20dp</dimen>
+    <dimen name="arrow_image_height">20dp</dimen>
+    <dimen name="menu_margin_top">8dp</dimen>
+    <dimen name="menu_margin_bottom">8dp</dimen>
+
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+     <dimen name="margin_30dp">30dp</dimen>
+     <dimen name="margin_5dp">5dp</dimen>
+     
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    
+    <dimen name="reg_edittext_height">38dip</dimen>
+    <dimen name="reg_photograph_btnheight">38dip</dimen>
+    <dimen name="login_ed_height">45dip</dimen>
+    <dimen name="set_head_bg">100dip</dimen>
+    <dimen name="set_head">70dip</dimen>
+    <dimen name="set_item_height">50dip</dimen>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titlebar_height"
+    android:background="@color/color_bar" >
+    <!--带用户头像的标题栏-->
+
+
+    <!--用户头像LinearLayout-->
+    <LinearLayout
+        android:id="@+id/rea_main_info"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <!--头像旁边表示更多信息的三个小点-->
+        <ImageView
+            android:id="@+id/img_dian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/icon_main_bar_dot" />
+        <!--放置用户头像的自定义ImageView-->
+        <com.jizhi.hududu.uclient.widget.CircleImageView
+            android:id="@+id/img_head"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:scaleType="centerCrop"
+            android:background="@drawable/user_head" />
+    </LinearLayout>
+
+    <!--显示“呼多多”三个字的ImageView-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/main_bar_title" />
+    <!--“多多心语”RadioButton-->
+    <!--<RadioButton
+        android:id="@+id/rbRight"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dip"
+        android:button="@null"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/icon_main_right_bottom"
+        android:onClick="finishAct"
+        android:paddingLeft="5dip"
+        android:text="@string/main_bar_right"
+        android:textColor="@color/sure_textclolor" />-->
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/lin_right" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_marginRight="8dip" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:text="@string/main_bar_right" -->
+    <!-- android:textColor="@android:color/white" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:layout_marginLeft="4dip" -->
+    <!-- android:background="@drawable/icon_main_right_bottom" /> -->
+    <!-- </LinearLayout> -->
+
+</RelativeLayout>

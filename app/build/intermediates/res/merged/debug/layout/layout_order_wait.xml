@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/draw_radius_guide_gray_bg"
+        android:orientation="vertical"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip" >
+
+        <ImageView
+            android:id="@+id/spinner"
+            android:layout_width="100dip"
+            android:layout_height="120dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:background="@anim/load_head" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:text="@string/fkgetorder_hint"
+            android:textColor="@color/gray_text_light"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:text="@string/fkgetorder"
+            android:textColor="@color/gray_text_light"
+            android:textSize="@dimen/text_size_12" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow_round"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:text="@string/nimute"
+                android:textColor="@color/gray_text_light"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/draw_radius_guide_btn_yellow"
+            android:gravity="center"
+            android:paddingBottom="8dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:paddingTop="8dip"
+            android:text="@string/order_cancel"
+            android:textColor="@color/yellow_round"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+</RelativeLayout>

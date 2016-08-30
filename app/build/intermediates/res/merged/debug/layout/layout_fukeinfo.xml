@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_fukeinfo"
+    android:layout_width="300dip"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dip"
+    android:layout_marginRight="16dip" >
+    <!--“阿姨”详情页-->
+
+    <!--嵌套LinearLayout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_fkinfo_bg"
+        android:orientation="horizontal" >
+        <!--用户头像-->
+        <RelativeLayout
+            android:id="@+id/layout_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="0dip">
+            <!--装载用户头像的ImageView-->
+            <ImageView
+                android:id="@+id/img_fkhead"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/icon_fk_head_dot" />
+        </RelativeLayout>
+
+        <!--“阿姨”身份详情-->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_fkname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张阿姨"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fkage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="40岁"
+                    android:textColor="@color/gray_text_light"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dip"
+                android:layout_toRightOf="@id/lin1" >
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_pos"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img"
+                    android:text="300米"
+                    android:textColor="@color/gray_text_light"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin1"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="3dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idcardnum"
+                    android:textColor="@color/gray_text_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_fknum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="16dip"
+                    android:text="511622199008177314"
+                    android:textColor="@color/gray_text_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin2"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="3dip" >
+
+                <RatingBar
+                    android:id="@+id/room_ratingbar"
+                    style="@style/roomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dip"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="2" />
+
+                <TextView
+                    android:id="@+id/tv_fkordercount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:layout_marginRight="3dip"
+                    android:text="40"
+                    android:textColor="@color/color_bar"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dip"
+                    android:text="单"
+                    android:textColor="@color/gray_text_light"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

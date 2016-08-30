@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_fukeinfos"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/draw_radius_guide_gray"
+         >
+
+        <RelativeLayout
+            android:id="@+id/layout_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/layout_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="16dip"
+                android:layout_marginTop="5dip" >
+
+                <com.jizhi.hududu.uclient.widget.CircleImageView
+                    android:id="@+id/img_fkhead"
+                    android:layout_width="70dip"
+                    android:layout_height="70dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/icon_fk_head_dot" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_toRightOf="@id/layout_head"
+                android:paddingBottom="5dip"
+                android:layout_marginTop="10dp"
+                android:paddingTop="5dip" >
+
+                <RelativeLayout
+                    android:id="@+id/lin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip" >
+
+                    <TextView
+                        android:id="@+id/tv_fkname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="name"
+                        android:textColor="#606060"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fkage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@id/tv_fkname"
+                        android:text="age"
+                        android:textColor="@color/gray_text_light"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fkfar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:text="far"
+                        android:textColor="@color/gray_text_light"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_toLeftOf="@id/tv_fkfar"
+                        android:src="@drawable/map" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dip"
+                    android:layout_toRightOf="@id/lin1" >
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon_pos"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img"
+                        android:text="300米"
+                        android:textColor="@color/gray_text_light"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lin1"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="3dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/idcardnum"
+                        android:textColor="@color/gray_text_light"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fknum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="16dip"
+                        android:textColor="@color/gray_text_light"
+                        android:text="idcard"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/lin3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lin2"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="3dip" >
+
+                    <RatingBar
+                        android:id="@+id/ratingbar"
+                        style="@style/roomRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="5.0"
+                        android:stepSize="0.1" />
+
+                    <TextView
+                        android:id="@+id/unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="单"
+                        android:textColor="@color/gray_text_light"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fkordercount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:text="0"
+                        android:textColor="@color/color_bar"
+                        android:layout_toLeftOf="@id/unit"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_toPay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_top"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/sel_btn_yellow"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="点击支付"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+             />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="5dip"
+            android:layout_below="@id/btn_toPay"
+            
+             />
+    </RelativeLayout>
+
+</RelativeLayout>

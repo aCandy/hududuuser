@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:background="@drawable/draw_radius_guide_photo_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_take_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reg_photograph_btnheight"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/sel_register_red"
+                android:text="@string/reg_photograph"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_pick_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reg_photograph_btnheight"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/sel_register_yellow"
+                android:text="@string/reg_photograph_album"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reg_photograph_btnheight"
+                android:layout_marginBottom="15dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/sel_register_gray"
+                android:text="@string/reg_photograph_cancel"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

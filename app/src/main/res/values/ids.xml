@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="auto_focus" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    
+    
+    <item type="id" name="service_price" />
+    
+    
+    
+    
+    <item type="id" name="text" >false</item> 
+    <item type="id" name="image" >false</item> 
+    <item type="id" name="value" >false</item> 
+    <item type="id" name="image_arrow" >false</item> 
+    <!-- 家政保洁 -->
+    <item type="id" name="service_address_text" >false</item> 
+    <item type="id" name="service_address_value" >false</item> 
+    <item type="id" name="service_address_image" >false</item>
+    
+    
+    <item type="id" name="door_service_date_image" >false</item> 
+    <item type="id" name="door_service_date_text" >false</item> 
+    <item type="id" name="door_service_date_arrow" >false</item> 
+    <item type="id" name="door_service_date_value" >false</item> 
+    
+    
+    <item type="id" name="service_time_image" >false</item> 
+    <item type="id" name="service_time_text" >false</item> 
+    <item type="id" name="service_time_arrow" >false</item> 
+    <item type="id" name="service_time_value" >false</item> 
+    
+    
+    <item type="id" name="service_content_image">false</item> 
+    <item type="id" name="service_content_text">false</item> 
+    <item type="id" name="service_content_arrow" >false</item> 
+    <item type="id" name="service_content_value" >false</item> 
+    
+    
+    
+    <item type="id" name="cost_image" >false</item> 
+    <item type="id" name="cost_text" >false</item> 
+    <item type="id" name="cost_arrow" >false</item> 
+    <item type="id" name="cost_value" >false</item> 
+    
+    <item type="id" name="use_of_vouchers_image" >false</item> 
+    <item type="id" name="use_of_vouchers_text" >false</item> 
+    <item type="id" name="use_of_vouchers_arrow" >false</item> 
+    <item type="id" name="use_of_vouchers_value" >false</item> 
+    
+    
+    <item type="id" name="service_type" >false</item> 
+    <item type="id" name="service_project" >false</item> 
+    <item type="id" name="price" >false</item> 
+    <item type="id" name="unit" >false</item> 
+    <item type="id" name="service_detail" >false</item> 
+    <item type="id" name="hour" >false</item> 
+    <item type="id" name="original_price" >false</item> 
+    <item type="id" name="current_price" >false</item> 
+    <item type="id" name="weixin" >false</item> 
+    <item type="id" name="zhifubao" >false</item> 
+    <item type="id" name="real_price_text" >false</item> 
+    <item type="id" name="real_price_value" >false</item> 
+    <item type="id" name="sure_pay" >false</item> 
+</resources>

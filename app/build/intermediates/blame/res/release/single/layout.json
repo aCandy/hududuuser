@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\pay.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\pay.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_time_dialog.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\service_time_dialog.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_card_bag.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_card_bag.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\umeng_example_socialize_sharemod_example.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\umeng_example_socialize_sharemod_example.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_left_selected.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\item_left_selected.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_order.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_order.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dishes_grid_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dishes_grid_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluate_grid_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\evaluate_grid_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_fukeinfo_vagetables.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_fukeinfo_vagetables.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_order_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_order_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluate_grid.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\evaluate_grid.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\bar_select_addr.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\bar_select_addr.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_select_photo.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dialog_select_photo.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\add.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\add.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_vegettables_grid_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_vegettables_grid_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_detail.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\order_detail.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\vegettables_info_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\vegettables_info_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_nearby.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\activity_nearby.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\household_cleaning_main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\household_cleaning_main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\hand_wasing_main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\hand_wasing_main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\choose_chef_listview_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\choose_chef_listview_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\left_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\left_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_agressment.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\activity_agressment.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_order_listview.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_order_listview.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\show_order_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\show_order_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\leftmenu.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\leftmenu.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\pay_result.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\feedback.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\choose_chef_dialog.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\choose_chef_dialog.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_order_wait.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_order_wait.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dishes_zoom.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dishes_zoom.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\about.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\menu_frame.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\slidingmenumain.xml",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\slidingmenu\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\bar_hududu_client.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\bar_hududu_client.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\bar_hududu.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\bar_hududu.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_evaluation_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\custom_evaluation_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dinner_main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dinner_main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_evaluation_grid_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\custom_evaluation_grid_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\progress_custom.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\progress_custom.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\progress.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\progress.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_card_bag_item_means.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_card_bag_item_means.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\listview.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_head.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\order_head.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_card_bag_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\my_card_bag_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_nearby.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\item_nearby.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_listview_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_listview_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\choose_chef_listview.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\choose_chef_listview.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_vegetables_viewpager.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_vegetables_viewpager.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\bar_null.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\bar_null.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dishes_grid.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dishes_grid.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_vegetable_listview.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_vegetable_listview.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\fk_detail.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\fk_detail.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\sharetofriend.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\sharetofriend.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluation_detail.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\evaluation_detail.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_vegettable_grid.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_vegettable_grid.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\pay_for.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\pay_for.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\pulltorefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\load_data.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\load_data.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\bar_home.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\bar_home.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\pulltorefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_main_addr.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_main_addr.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\buy_vegetables_main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\buy_vegetables_main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_date_dialog.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\service_date_dialog.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_vagetable.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\activity_vagetable.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\loading.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\overdue_my_card_bag.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\overdue_my_card_bag.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\close_dialog.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\close_dialog.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\toast_custom_layout.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\toast_custom_layout.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_main.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_popupwindows.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_fukeinfos.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_fukeinfos.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dishes_gr.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dishes_gr.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\dishes_zoom_detail.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\dishes_zoom_detail.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\show_order.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\show_order.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_fukeinfo.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\layout_fukeinfo.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\content_fragment.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\content_fragment.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_birth_year.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\item_birth_year.xml"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\layout\\cai.xml",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\layout\\cai.xml"
+    }
+]

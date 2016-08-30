@@ -1,0 +1,498 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+    <!--主界面Fragment-->
+
+    <!--标题栏-->
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!--带用户头像的标题栏-->
+        <include layout="@layout/bar_home" />
+        <!--带“首页”字样的标题栏-->
+        <include layout="@layout/bar_hududu_client" />
+    </RelativeLayout>
+
+    <!--屏幕下方服务项目条目LinearLayout-->
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <!--分割线-->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray_bg" />
+
+        <!--服务项目文字LinearLayout-->
+        <LinearLayout
+            android:id="@+id/lin_botTop"
+            android:layout_width="match_parent"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            >
+
+
+            <!--“专业保洁”-->
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <TextView
+                    android:id="@+id/tv_greens"
+                    style="@style/tv_bottom"
+                    android:gravity="top|center"
+                    android:text="@string/main_homemake"
+                    android:textColor="@color/grens_light" />
+            </RelativeLayout>
+            <!--
+		    <RelativeLayout
+			   android:layout_width="0dp"
+			   android:layout_height="match_parent"
+			   android:layout_weight="2" >
+
+			   <TextView
+				   android:id="@+id/tv_homemake"
+				   style="@style/tv_bottom"
+				   android:text="@string/main_homemake" />
+		   </RelativeLayout>
+
+		  &lt;!&ndash;“吃饭了”&ndash;&gt;
+		   <RelativeLayout
+			   android:layout_width="fill_parent"
+			   android:layout_height="fill_parent"
+			   android:layout_weight="1" >
+
+			   <TextView
+				   android:id="@+id/tv_food"
+				   style="@style/tv_bottom"
+				   android:text="@string/main_food" />
+		   </RelativeLayout>
+
+		   &lt;!&ndash;“手洗衣服”&ndash;&gt;
+		   <RelativeLayout
+			   android:layout_width="fill_parent"
+			   android:layout_height="fill_parent"
+			   android:layout_weight="1" >
+
+			   <TextView
+				   android:id="@+id/tv_cloth"
+				   style="@style/tv_bottom"
+				   android:text="@string/main_chloth" />
+		   </RelativeLayout>-->
+
+            <!--“手洗衣服”-->
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_work"
+                    style="@style/tv_bottom"
+                    android:text="@string/main_chloth" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--服务项目下的滑块RelativeLayout，对应着服务项目文字-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            >
+
+
+            <!--又嵌套了一层LinearLayout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:orientation="horizontal" >
+
+                <!--单独部分滑块的RelativeLayout，对应
+            该条目是“专业保洁”-->
+                <RelativeLayout
+                    android:id="@+id/rea_greens"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <!--白色背景-->
+                    <ImageView
+                        android:id="@+id/greens"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_main_dot_left" />
+                    <!--右侧白色连接线(用于拼接滑块进度条)-->
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/greens"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    <!--滑块(logo)-->
+                    <ImageView
+                        android:id="@+id/img_greens"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_head" />
+                </RelativeLayout>
+                <!--
+                <RelativeLayout
+                    android:id="@+id/rea_homemake"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+                    <ImageView
+                        android:id="@+id/homemake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_main_dot_center" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/homemake"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/homemake"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    <ImageView
+                        android:id="@+id/img_homemake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_head"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                 &lt;!&ndash;对应“吃饭了”&ndash;&gt;
+                <RelativeLayout
+                    android:id="@+id/rea_food"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+                    &lt;!&ndash;白色背景&ndash;&gt;
+                    <ImageView
+                        android:id="@+id/food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_main_dot_center" />
+                    &lt;!&ndash;右侧白色连接线&ndash;&gt;
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/food"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    &lt;!&ndash;左侧白色连接线&ndash;&gt;
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/food"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    &lt;!&ndash;滑块(logo)，默认隐藏&ndash;&gt;
+                    <ImageView
+                        android:id="@+id/img_food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_head"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                &lt;!&ndash;对应“手洗衣服”&ndash;&gt;
+                <RelativeLayout
+                    android:id="@+id/rea_cloth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+                    &lt;!&ndash;白色背景&ndash;&gt;
+                    <ImageView
+                        android:id="@+id/cloth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_main_dot_center" />
+                    &lt;!&ndash;白色连接线&ndash;&gt;
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/cloth"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    &lt;!&ndash;白色连接线&ndash;&gt;
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/cloth"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    &lt;!&ndash;滑块(logo)，默认隐藏&ndash;&gt;
+                    <ImageView
+                        android:id="@+id/img_cloth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_head"
+                        android:visibility="gone" />
+                </RelativeLayout>-->
+                <!--对应“手洗衣服”-->
+                <RelativeLayout
+                    android:id="@+id/rea_work"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+                    <!--白色背景-->
+                    <ImageView
+                        android:id="@+id/work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_main_dot_right" />
+                    <!--白色连接线-->
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/work"
+                        android:background="@drawable/icon_main_bottom_line" />
+                    <!--滑块(logo)，默认隐藏-->
+                    <ImageView
+                        android:id="@+id/img_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_head"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <!--分割线-->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="12dip" />
+    </LinearLayout>
+
+    <!--百度地图RelativeLayout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_bottom"
+        android:layout_below="@id/layout_top" >
+
+        <!--百度地图控件-->
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+        <!--尚不明确该控件使用场景-->
+        <ImageButton
+            android:id="@+id/btn_loc"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dip"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/icon_loc" />
+
+        <!--服务位置确认LinearLayout-->
+        <LinearLayout
+            android:id="@+id/lin_top"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/draw_radius_guide_gray"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+            <!--当前位置(定位位置)RelativeLayout-->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip" >
+                <!--位置文字前的绿色小点-->
+                <ImageView
+                    android:id="@+id/img_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dip"
+                    android:background="@drawable/draw_round_blue_small" />
+                <!--定位位置文字框Button(注意这里是Button不是TextView)
+                    是因为当点击这个位置文字时会跳转到其他页面显示更多更准确的位置信息-->
+                <Button
+                    android:id="@+id/btn_addr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_toRightOf="@id/img_dot"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:text="移动图钉"
+                    android:textColor="#515151"
+                    android:textSize="14sp" />
+                <!--分割线-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray_round_bg" />
+            </RelativeLayout>
+            <!--具体位置RelativeLayout-->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip" >
+                <!--橙色小点-->
+                <ImageView
+                    android:id="@+id/img_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dip"
+                    android:background="@drawable/draw_round_yellow_small" />
+                <!--输入具体位置门牌号等信息的EditText-->
+                <EditText
+                    android:id="@+id/ed_addr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_toRightOf="@id/img_addr"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="请输入您的楼栋和门牌号"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="#8d8d8d"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!--当前位置图标-->
+        <ImageButton
+            android:id="@+id/btn_target"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_geo_fill" />
+        <!--“点击上门”ImageView-->
+        <ImageView
+            android:id="@+id/imgShowTopView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_target"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/icon_seladdr"
+            android:visibility="invisible" />
+        <!--左下角绿色单价条目LinearLayout-->
+        <LinearLayout
+            android:id="@+id/lin_bottom_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="visible" >
+            <!--第一个单价条目-->
+            <RelativeLayout
+                android:id="@+id/rea_homemake_complex_hour"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" >
+                <!--条目绿色背景-->
+                <ImageView
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_homemake_bule" />
+                <!--条目上的文字-->
+                <TextView
+                    android:id="@+id/tv_complex_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dip"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <!--第二个单价条目-->
+            <RelativeLayout
+                android:id="@+id/rea_homemake_simple_hour"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dip"
+                android:visibility="invisible" >
+                <!--条目绿色背景-->
+                <ImageView
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_homemake_bule" />
+                <!--条目上的文字-->
+                <TextView
+                    android:id="@+id/tv_simple_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dip"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <!--第三个单价条目-->
+            <RelativeLayout
+                android:id="@+id/rea_homemake_min"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dip"
+                android:visibility="invisible" >
+                <!--条目绿色背景-->
+                <ImageView
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_homemake_bule" />
+                <!--条目上的文字-->
+                <TextView
+                    android:id="@+id/tv_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dip"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

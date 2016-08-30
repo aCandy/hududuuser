@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <!--登陆界面-->
+    <!--手机验证提示文字TextView-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dip"
+        android:text="@string/login_top_hint"
+        android:textColor="#adadad"
+        android:textSize="14sp" />
+    <!--输入手机号码和“获取验证码”按钮的LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_margin="12dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_radius_guide_blue_bg"
+            android:orientation="horizontal" >
+            <!--手机号码输入EditText-->
+            <EditText
+                android:id="@+id/ed_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:layout_marginTop="6dip"
+                android:background="@color/white"
+                android:hint="@string/login_mobile_hint"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <!--获取验证码Button-->
+        <Button
+            android:id="@+id/btn_code"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="1.3"
+            android:background="@drawable/sel_btn_blue"
+            android:text="@string/proving"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <!--输入验证码EditText-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:background="@drawable/draw_radius_guide_gray"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/ed_code"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="6dip"
+            android:background="@color/white"
+            android:hint="@string/login_code_hint"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <!--“开始验证”Button-->
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/draw_radius_guide_btn_gray"
+        android:text="@string/start"
+        android:textColor="@color/white" />
+    <!--协议条款-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dip"
+            android:text="@string/agreement_hint"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_agr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dip"
+            android:background="@null"
+            android:paddingBottom="4dip"
+            android:paddingTop="4dip"
+            android:text="@string/agreement_h"
+            android:textColor="#f6a83b"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

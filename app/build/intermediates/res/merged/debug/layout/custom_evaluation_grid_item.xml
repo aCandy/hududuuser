@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_marginRight="5dp"
+    android:layout_width="75dp"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

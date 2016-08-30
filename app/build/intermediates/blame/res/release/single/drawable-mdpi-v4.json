@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\icon.png",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\order_gou_press.png",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\drawable-mdpi\\order_gou_press.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\gou.png",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\drawable-mdpi\\gou.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\order_gou_normal.png",
+        "source": "F:\\hududuuser\\app\\src\\main\\res\\drawable-mdpi\\order_gou_normal.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\pulltorefresh\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\pulltorefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\hududuuser\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "F:\\hududuuser\\app\\build\\intermediates\\exploded-aar\\hududuuser\\pulltorefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    }
+]

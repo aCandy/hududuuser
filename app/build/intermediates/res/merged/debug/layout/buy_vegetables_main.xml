@@ -1,0 +1,525 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/back" >
+
+                <RelativeLayout
+                    android:id="@+id/rea_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/background" >
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@id/service_address_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/sure_address"
+                        android:textColor="#434343"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <ImageView
+                        android:id="@+id/arrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:src="@drawable/arrow" />
+
+                    <TextView
+                        android:id="@id/service_address_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/service_address_text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="5dp"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="8dp"
+                        android:textColor="#424544"
+                        android:textSize="@dimen/text_size_15" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/service_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="服务类型"
+                    android:textColor="#818181"
+                    android:textSize="@dimen/text_size_15" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp" >
+
+                        <TextView
+                            android:id="@id/service_project"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/main_grenns"
+                            android:textColor="#06934a"
+                            android:textSize="@dimen/text_size_18" />
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@id/service_project"
+                            android:src="@drawable/logo1" />
+                    </RelativeLayout>
+
+                    <com.jizhi.hududu.uclient.widget.CenterTextView
+                        android:id="@+id/service_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relativeLayout2"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/service_money"
+                        android:textColor="#f09b05"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <com.jizhi.hududu.uclient.widget.CenterTextView
+                        android:id="@+id/notice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/service_money"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/notice"
+                        android:textColor="@color/household_cleaning"
+                        android:textSize="@dimen/text_size_13" />
+
+                    <View
+                        android:id="@+id/gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/notice" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+
+            <!-- 上门服务时间 -->
+
+            <RelativeLayout
+                android:id="@+id/door_service_date_relative"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/menu_margin_bottom"
+                android:layout_marginTop="@dimen/menu_margin_top"
+                android:layout_weight="0.6"
+                android:background="#FFFFFF"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:id="@id/door_service_date_image"
+                    android:layout_width="@dimen/menu_image_width"
+                    android:layout_height="@dimen/menu_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:src="@drawable/door_service_date_image" />
+
+                <TextView
+                    android:id="@id/door_service_date_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toRightOf="@id/door_service_date_image"
+                    android:text="送货上门时间"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_15" />
+
+                <ImageView
+                    android:id="@id/door_service_date_arrow"
+                    android:layout_width="@dimen/arrow_image_width"
+                    android:layout_height="@dimen/arrow_image_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:src="@drawable/arrow" />
+
+                <TextView
+                    android:id="@id/door_service_date_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toLeftOf="@id/door_service_date_arrow"
+                    android:text="未选择时间"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_15" />
+            </RelativeLayout>
+
+            <!-- 结束 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+
+            <!-- 选择需要购买的菜 -->
+
+            <RelativeLayout
+                android:id="@+id/rea_greens"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/menu_margin_bottom"
+                android:layout_marginTop="@dimen/menu_margin_top"
+                android:layout_weight="0.6" >
+
+                <ImageView
+                    android:id="@id/cost_image"
+                    android:layout_width="@dimen/menu_image_width"
+                    android:layout_height="@dimen/menu_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:src="@drawable/maicai_icon" />
+
+                <TextView
+                    android:id="@id/cost_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toRightOf="@id/cost_image"
+                    android:text="选择需要购买的菜"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_15" />
+
+                <ImageView
+                    android:id="@id/cost_arrow"
+                    android:layout_width="@dimen/arrow_image_width"
+                    android:layout_height="@dimen/arrow_image_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:src="@drawable/arrow"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_greens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/cost_image"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toLeftOf="@id/cost_arrow"
+                    android:text="未选"
+                    android:textColor="@color/gray1"
+                    android:textSize="@dimen/text_size_15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+
+            <!-- 服务内容及耗时参考 -->
+
+            <RelativeLayout
+                android:id="@+id/service_content_relative"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/menu_margin_bottom"
+                android:layout_marginTop="@dimen/menu_margin_top"
+                android:layout_weight="0.5"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:id="@id/service_content_image"
+                    android:layout_width="@dimen/menu_image_width"
+                    android:layout_height="@dimen/menu_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:src="@drawable/service_content" />
+
+                <TextView
+                    android:id="@id/service_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toRightOf="@id/service_content_image"
+                    android:text="@string/service_content"
+                    android:textColor="@color/service_content"
+                    android:textSize="@dimen/text_size_15" />
+
+                <ImageView
+                    android:id="@id/service_content_arrow"
+                    android:layout_width="@dimen/arrow_image_width"
+                    android:layout_height="@dimen/arrow_image_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:src="@drawable/arrow" />
+            </RelativeLayout>
+
+            <!-- 结束 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+
+            <!-- 花费金额 -->
+
+            <RelativeLayout
+                android:id="@+id/use_cash_coupon_relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/menu_margin_bottom"
+                android:layout_marginTop="@dimen/menu_margin_top"
+                android:layout_weight="0.5"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:id="@+id/use_cash_image"
+                    android:layout_width="@dimen/menu_image_width"
+                    android:layout_height="@dimen/menu_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:src="@drawable/use_of_vouchers" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toRightOf="@id/use_cash_image"
+                    android:text="@string/use_cash_coupons"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_15" />
+
+                <ImageView
+                    android:id="@+id/use_cash_arrow"
+                    android:layout_width="@dimen/arrow_image_width"
+                    android:layout_height="@dimen/arrow_image_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:src="@drawable/arrow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/use_cash_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/use_cash_image"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toLeftOf="@id/use_cash_arrow"
+                    android:textColor="@color/service_content"
+                    android:textSize="@dimen/text_size_15"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"
+                android:alpha="0.5"
+                 />
+
+            <RelativeLayout
+                android:id="@+id/cost_relative"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/menu_margin_bottom"
+                android:layout_marginTop="@dimen/menu_margin_top"
+                android:layout_weight="0.6" >
+
+                <ImageView
+                    android:id="@id/cost_image"
+                    android:layout_width="@dimen/menu_image_width"
+                    android:layout_height="@dimen/menu_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:src="@drawable/cost" />
+
+                <TextView
+                    android:id="@id/cost_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toRightOf="@id/cost_image"
+                    android:text="预计花费"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_15" />
+
+                <TextView
+                    android:id="@+id/cost_text_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/cost_text"
+                    android:textColor="@color/household_cleaning"
+                    android:textSize="@dimen/text_size_12" />
+
+                <ImageView
+                    android:id="@id/cost_arrow"
+                    android:layout_width="@dimen/arrow_image_width"
+                    android:layout_height="@dimen/arrow_image_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:src="@drawable/arrow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@id/cost_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/cost_image"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_toLeftOf="@id/cost_arrow"
+                    android:textColor="@color/money"
+                    android:textSize="@dimen/text_size_15"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+
+            <!-- android:hint="顺手带:如需代买其他小件物品、请在此填写详细信息,该服务需线下支付费用给服客" -->
+
+            <EditText
+                android:id="@+id/littlegoods"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@null"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textSize="@dimen/text_size_12" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="0.5"
+                android:background="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color_submit" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="提交订单"
+            android:textColor="@color/line_color_submit" />
+    </LinearLayout>
+
+</LinearLayout>

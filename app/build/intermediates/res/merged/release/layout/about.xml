@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--关于界面-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+
+
+    <!--上半部分LinearLayout-->
+    <LinearLayout
+        android:id="@+id/linearlayout_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!--容纳整个LOGO的RelativeLayout-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="40dp" >
+
+
+            <!--装载LOGO的ImageView-->
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon" />
+
+            <!--填入版本号的TextView-->
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/about_text"
+                android:textSize="@dimen/text_size_20" />
+        </RelativeLayout>
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#bebebe" />
+
+        <!--微信公众号RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/weixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/about_text2"
+                android:textColor="#646464"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/about_text3"
+                android:textColor="#646464"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#bebebe" />
+
+        <!--微博RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/weibo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/about_text4"
+                android:textColor="#646464"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/about_text5"
+                android:textColor="#646464"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#bebebe" />
+    </LinearLayout>
+
+    <!--下半部分LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" 
+        >
+
+        <!--软件服务协议-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="@string/about_text6"
+            android:textColor="#3e3e3e" />
+
+        <!--版权所有-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="@string/about_text7"
+            android:textColor="#747474"
+            android:textSize="@dimen/text_size_12" />
+
+        <!--注册信息-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/about_text8"
+            android:textColor="#747474"
+            android:textSize="@dimen/text_size_12"
+            android:layout_marginBottom="30dp"
+             />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="@color/blue_title" >
+
+            <RadioButton
+                android:id="@+id/rb_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dip"
+                android:button="@drawable/right"
+                android:drawablePadding="5dip"
+                android:onClick="finishAct"
+                android:paddingLeft="5dip"
+                android:text="@string/back"
+                android:textColor="@color/sure_textclolor" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="我的卡包"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="添加"
+                android:textColor="@drawable/white_click"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/use_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_white_line1"
+            android:text="@string/coupon"
+            android:textColor="@drawable/green_click"
+            android:textSize="@dimen/text_size_16" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:background="#f7f7f7"
+            android:divider="@null"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/overdue_date"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f7f7f7"
+        android:gravity="center"
+         >
+
+        <TextView
+            android:id="@+id/nothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有更多可用券了" />
+
+        <TextView
+            android:id="@+id/thing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/nothing"
+            android:text="查看过期券>>"
+            android:textColor="@color/card_money_yello" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:background="@color/black"
+        android:layout_above="@id/overdue_date"
+         />
+
+</RelativeLayout>

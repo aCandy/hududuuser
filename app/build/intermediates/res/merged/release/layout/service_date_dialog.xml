@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_myinfo_changeaddress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_myinfo_changeaddress_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_selector"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#60c892"
+             >
+                <TextView
+                    android:id="@+id/btn_myinfo_sure"
+                    android:layout_width="77dip"
+                    android:layout_height="40dip"
+                    android:text="确认"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dip"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                     />
+                 <TextView
+                    android:id="@+id/service_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:text="请选择服务时间"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                     />
+                <TextView
+                    android:id="@+id/btn_myinfo_cancel"
+                    android:layout_width="77dip"
+                    android:layout_height="40dip"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                     />
+        </RelativeLayout>
+        
+		<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="160dip"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="20dip"
+	        android:layout_marginRight="20dip"
+	        android:gravity="center_vertical">
+	        <com.jizhi.hududu.uclient.widget.WheelView
+	            android:id="@+id/day"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	        <com.jizhi.hududu.uclient.widget.WheelView
+	            android:id="@+id/hour"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	        <com.jizhi.hududu.uclient.widget.WheelView
+	            android:id="@+id/minute"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

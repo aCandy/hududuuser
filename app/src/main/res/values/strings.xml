@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="reg_photograph">拍&#160;&#160;照</string>
+    <string name="reg_photograph_album">相&#160;&#160;册</string>
+    <string name="reg_photograph_cancel">取&#160;&#160;消</string>
+    
+    
+    <string name="searing">正在查询中...</string>
+    <string name="app_name">呼多多</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_grenns">帮我买菜</string>
+    <string name="main_wash_clothes">敬请期待</string>
+    <string name="main_homemake">专业保洁</string>
+    <string name="hand_household">手洗衣服(按件)</string>
+    <string name="main_food">吃饭了</string>
+    <string name="main_chloth">手洗衣服</string>
+    <string name="main_shopping">急事速办</string>
+    <string name="mian_input_addr">请输入地址</string>
+    <string name="main_bespeak">预约</string>
+    <string name="mian_visit_now">立刻\n上门</string>
+    <string name="mian_neayby_inputhint">请选择您的地址</string>
+    <string name="main_bar_right">多多心语</string>
+    <string name="main_bar_right2">业务详情说明</string>
+    <string name="main_homemake_hours">专业保洁(29元每小时)</string>
+    <string name="main_homemake_hour">简单打扫(23元每小时)</string>
+    <string name="main_homemake_min">饭后洗碗(16元每小时)</string>
+    <string name="homemake_hours">专业保洁</string>
+    <string name="homemake_hour">简单打扫</string>
+    <string name="homemake_min">饭后洗碗</string>
+    <string name="idcardnum">身份证号码:</string>
+    <string name="searching">正在搜索…</string>
+    <string name="findfk">正在为您寻找服客…</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="sumiting">正在提交中...</string>
+    <string name="seaching_fk">查询服客信息中..</string>
+    <string name="seaching_my_card_bag">查询优惠券中..</string>
+    <string name="adding">添加中请稍后..</string>
+
+    <string name="six_yuan">6.00元</string>
+    <string name="twelve_yuan">12.00元</string>
+    <string name="fifteen_yuan">15.00元</string>
+    <string name="twenty_yuan">20.00元</string>
+    <string name="move">移动图钉</string>
+    <string name="main">首页</string>
+    <string name="sure">确认</string>
+    <string name="back">返回</string>
+    <string name="pay_err">支付异常,请重试或选择其他方式支付</string>
+    <string name="createPay">正在生成支付参数</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_cancel">取消支付</string>
+    <string name="order_cancel">取消订单</string>
+    <string name="wechatNoInstall">请先安装微信</string>
+    <string name="fkgetorder">亲~服客正在抢单中…请耐心等待</string>
+    <string name="fkgetorder_hint">一键即时服务,1小时19元</string>
+    <string name="gohomecook">上门做饭</string>
+    <!-- 家庭保洁和手洗衣服服务项目 -->
+    <string name="door_service_date">上门服务时间</string>
+    <string name="service_time">服务时长</string>
+    <string name="service_content">业务详情及用户须知</string>
+    <string name="cost">花费金额</string>
+    <string name="use_of_vouchers">使用代金券</string>
+    <string name="hand_washing_choose_number">选择袋数</string>
+    <string name="nimute">分钟</string>
+    <string name="menu_detail">菜品详情</string>
+    <string name="cherf_menu">厨师拿手菜单</string>
+    <string name="format_showimgs_txt_title">%1$s/%2$s</string>
+    <string name="use_cash_coupons">使用代金券</string>
+    
+    
+
+    <!-- 手洗衣服 -->
+    <string name="hand_washing_title">手洗衣服</string>
+    <string name="hand_washing_project">手洗衣服(按袋)</string>
+    <string name="hand_washing_price">￥78.00</string>
+    <string name="hand_washing_detail">1对1分类手洗、按袋计费、更健康、更干净</string>
+    <string name="pay_for_text">选择支付方式</string>
+    <string name="cleaning_desc">(拖地、室内玻璃、抽油烟机表面清洗等)</string>
+    <string name="simple_desc">(拖地，简单收纳，清洁打扫等; 特别适合年轻人哟，建议每周一次简单打扫)</string>
+    <string name="dishes_desc">(洗碗，厨房简单清洁，餐厅简单清洁等)</string>
+    <string name="price">价格</string>
+    <string name="zhifubao">支付宝</string>
+    <string name="weixin">微信</string>
+    <string name="real_price">实付金额</string>
+    <string name="sure_pay">确认支付</string>
+    <string name="cleaning">专业保洁</string>
+    <string name="simple_cleaning">简单打扫</string>
+    <string name="dishes">饭后洗碗</string>
+    <string name="login_top_hint">为了方便服客服务时及时联系您,请验证手机</string>
+    <string name="login_mobile_hint">请输入您的手机号</string>
+    <string name="login_code_hint">请输入验证码</string>
+    <string name="login_proving">请输入您的手机号</string>
+    <string name="start">开始</string>
+    <string name="provingmoblie">验证手机</string>
+    <string name="agreement_h">&lt;&lt;呼多多服务协议 &gt;&gt;</string>
+    <string name="agreement_hint">点击-开始,即表示您同意</string>
+    <string name="proving">验 &#160;&#160;证</string>
+    <string name="payorder">支付订单</string>
+    <string name="hand_wasing_notice">(按时长计费,分类手洗,更健康、更干净)</string>
+    <string name="choose_wasing_time">选择洗衣时长</string>
+
+    
+    <!-- 订单详情 -->
+    <string name="order_detail">订单详情</string>
+    <string name="order_detail_1">服务地址</string>
+    <string name="order_detail_2">服&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;客</string>
+    <string name="order_detail_3">实际付款</string>
+    <string name="order_detail_4">完成时间</string>
+    <string name="order_detail_5">联系服客</string>
+    <string name="order_detail_6">取消订单</string>
+    
+    <!-- 评价详情 -->
+    <string name="evaluation1">差评</string>
+    <string name="evaluation2">一般</string>
+    <string name="evaluation3">中评</string>
+    <string name="evaluation4">满意</string>
+    <string name="evaluation5">非常好</string>
+    <string name="help">亲,写点什么吧,您的意见对其他人会有很大的帮助!</string>
+     <string name="evaluation_detail">评价详情</string>
+     
+     
+     <!-- 分享页面 -->
+     <string name="share">分享吧</string>
+     <string name="friend">如果你觉得满意请分享朋友圈吧~</string>
+     <string name="ev">感谢你的评价~</string>
+     
+    
+    <!-- 主页面左滑菜单 -->
+    <string name="my_order">我的订单</string>
+    <string name="service_address">服务地址</string>
+    <string name="recommended_award">推荐有奖</string>
+    <string name="my_card_bag">我的卡包</string>
+    <string name="server_recruitment">服客招募</string>
+    <string name="about_us">关于我们</string>
+    <string name="feedback">意见反馈</string>
+    <string name="use_help">使用帮助</string>
+    <string name="close_username">退出账户</string>
+
+    <!-- 意见反馈 -->
+    <string name="feedback_1">请详细写下您的建议和感想吧:</string>
+    <string name="feedback_2">为了更好的解决您反馈的问题,请尽量在出现问题的时候在有网的情况下进行反馈!</string>
+    <string name="feedback_3">请留下您的联系方式:</string>
+    <string name="feedback_4">手机、QQ号或邮箱</string>
+    <string name="feedback_5">提交反馈</string>
+
+    <!-- 服客详细资料 -->
+    <string name="service_data1">姓&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;名:</string>
+    <string name="service_data2">身份证号:</string>
+    <string name="service_data3">距&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;离:</string>
+    <string name="service_data4">服务次数:</string>
+    <string name="service_data5">评&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;价:</string>
+    <string name="service_data6">服务评价:</string>
+    <string name="service_data_detail">顾客详细资料</string>
+    <string name="evaluation_picutes">评价图片</string>
+    
+
+    <!-- 吃饭了 -->
+    <string name="service_money">该服务需支付6元服务费</string>
+    <string name="notice">指导价为参考所用,具体价格请与服客线下找零</string>
+
+    <!-- 关于呼多多 -->
+    <string name="about_title">关于我们</string>
+    <string name="about_text1">呼多多V%1$s</string>
+    <string name="about_text2">微信公众号</string>
+    <string name="about_text3">呼多多</string>
+    <string name="about_text4">新浪微博</string>
+    <string name="about_text5">呼多多Vip</string>
+    <string name="about_text6">呼多多软件许可服务建议</string>
+    <string name="about_text7">呼多多 版权所有</string>
+    <string name="about_text8">Copyright@2015 Huduoduo.All Rights Reserved</string>
+    
+    
+    <string name="without_the">未抵用</string>
+    
+    <!-- 我的卡包 -->
+    <string name="over_coupon">过期券</string>
+    <string name="add_coupon">添加优惠券</string>
+    <string name="coupon">优惠券使用说明</string>
+    <string name="only_huduoduo">仅限呼多多所有服务使用</string>
+    <string name="term_of_validity">有效期至&#160;%1$s</string>
+    
+    <string name="sure_address">请确认服务地址:</string>
+    
+    <!-- 帮我买菜 -->
+    <string name="vegetables">蔬菜</string>
+    <string name="fruit">水果</string>
+    <string name="fish">水产</string>
+    <string name="meet">肉</string>
+    <string name="buy_vegetables">帮我买菜</string>
+    <string name="buy_vegetables_detail">菜篮子</string>
+    <!-- 服务端返回code 开始 -->
+    <string name="c_10001">手机号码格式错误</string>
+    <string name="c_10002">短信发送失败</string>
+    <string name="c_10003">验证码错误</string>
+    <string name="c_10004">缺少密码或格式错误</string>
+    <string name="c_10005">注册失败</string>
+    <string name="c_10006">手机号未注册</string>
+    <string name="c_10007">用户名或密码错误</string>
+    <string name="c_10008">缺少手机号码</string>
+    <string name="c_10009">日期错误</string>
+    <string name="c_10010">缺少名称</string>
+    <string name="c_10011">手机已经注册</string>
+    <string name="c_10012">缺少经纬度</string>
+    <string name="c_10013">经纬度格式错误</string>
+    <string name="c_10014">行政区代号错误</string>
+    <string name="c_10015">缺少身份证号码或号码格式错误</string>
+    <string name="c_10016">缺少性别标识或格式错误 0女 1男</string>
+    <string name="c_10017">手机号码未注册</string>
+    <string name="c_10018">缺少年龄</string>
+    <string name="c_10020">尚未登录</string>
+    <string name="c_10021">缺少紧急联系人</string>
+    <string name="c_10022">缺少紧急联系人电话</string>
+    <string name="c_10023">地址不存在</string>
+    <string name="c_10024">地址已存在</string>
+    <string name="c_10025">重置密码失败</string>
+    <string name="c_10026">修改已赚总金额或积分失败</string>
+    <string name="c_10027">修改状态失败</string>
+    <string name="c_10028">修改资料失败</string>
+    <string name="c_10029">修改已花总金额或积分失败</string>
+    <string name="c_10030">帐户已停用</string>
+    <string name="c_10031">服客帐户已停用</string>
+    <string name="c_10032">服客帐户已停用</string>
+    <string name="c_10033">商家帐户已停用</string>
+    <string name="c_10034">咨询公司帐户已停用</string>
+    <string name="c_10035">替换手机号码失败</string>
+    <string name="c_10036">支付宝帐号格式错误</string>
+    <string name="c_10037">帐号审核中</string>
+    <string name="c_10039">无效状态值</string>
+    <string name="c_10040">无效业务类型</string>
+    <string name="c_10041">缺少业务类型</string>
+    <string name="c_10042">缺少积分</string>
+    <string name="c_10046">缺少省份</string>
+    <string name="c_10047">缺少城市</string>
+    <string name="c_10050">缺少操作符</string>
+    <string name="c_10051">无效操作符</string>
+    <string name="c_10052">缺少标识</string>
+    <string name="c_10053">无效标识</string>
+    <string name="c_10055">没有权限</string>
+    <string name="c_10061">缺少商家ID值</string>
+    <string name="c_10062">商家ID值不存在</string>
+    <string name="c_10063">商家ID值格式错误</string>
+    <string name="c_10064">缺少法人</string>
+    <string name="c_10065">缺少经理或管理员</string>
+    <string name="c_10066">缺少经理电话</string>
+    <string name="c_10071">缺少销售员状态</string>
+    <string name="c_10072">无效销售员状态</string>
+    <string name="c_10073">销售员不存在</string>
+    <string name="c_10074">销售员已存在</string>
+    <string name="c_10075">非此商家员工</string>
+    <string name="c_10100">服务器忙</string>
+    <string name="c_10101">空交易</string>
+    <string name="c_10102">数值非法</string>
+    <string name="c_10103">次数超限</string>
+    <string name="c_10104">缺少数据</string>
+    <string name="c_10105">无效数据</string>
+    <string name="c_10107">无效MID值</string>
+    <string name="c_10108">无效MOS值</string>
+    <string name="c_10109">无效UID值</string>
+    <string name="c_12003">此公告已发布</string>
+    <string name="c_12004">无效公告ID值</string>
+    <string name="c_12005">无此公告</string>
+    <string name="c_12006">此公告已撤销</string>
+    <string name="c_12010">缺少接收方或标识错误</string>
+    <string name="c_12013">此通知已发布</string>
+    <string name="c_12014">无效通知ID值</string>
+    <string name="c_12015">无此通知</string>
+    <string name="c_20001">没有发现文件</string>
+    <string name="c_30001">添加商品错误</string>
+    <string name="c_30002">缺少主题描述</string>
+    <string name="c_30003">缺少时间信息或格式错误</string>
+    <string name="c_30004">缺少地址信息</string>
+    <string name="c_30005">订单不存在</string>
+    <string name="c_30006">缺少金额或格式错误</string>
+    <string name="c_30007">缺少评级信息</string>
+    <string name="c_30008">缺少类型信息</string>
+    <string name="c_30009">付款方式错误</string>
+    <string name="c_30010">缺少页号</string>
+    <string name="c_30012">缺少时间戳信息或格式错误</string>
+    <string name="c_30013">缺少时间段信息或格式错误</string>
+    <string name="c_30017">缺少评价信息</string>
+    <string name="c_30020">订单已抢应</string>
+    <string name="c_30021">订单尚未抢应</string>
+    <string name="c_30022">订单尚未确认</string>
+    <string name="c_30023">订单已经确认</string>
+    <string name="c_30025">订单已取消</string>
+    <string name="c_30026">订单已不能取消</string>
+    <string name="c_30027">订单已超时</string>
+    <string name="c_30032">订单尚不能线下实施</string>
+    <string name="c_30033">订单尚未线下完成</string>
+    <string name="c_30037">订单已完结</string>
+    <string name="c_30038">订单尚未完结</string>
+    <string name="c_30039">无权操作此订单</string>
+    <string name="c_30050">不允许再次评价</string>
+    <string name="c_30103">生鲜类别错误</string>
+    <string name="c_30104">生鲜代号错误</string>
+    <string name="c_30105">缺少生鲜列表</string>
+    <string name="c_30110">缺少衣物代码</string>
+    <string name="c_30111">衣物类别错误</string>
+    <string name="c_30112">缺少衣物名称</string>
+    <string name="c_30113">缺少衣物颜色</string>
+    <string name="c_30114">缺少洗衣价格下限</string>
+    <string name="c_30115">缺少洗衣价格上限</string>
+    <string name="c_30121">衣物还未从客户处取走</string>
+    <string name="c_30122">衣物洗衣店还未收到</string>
+    <string name="c_30135">亲,订单不存在</string>
+    <string name="c_30136"> 亲,订单已被抢应,请再接再厉哦!</string>
+    <string name="c_30137">亲,订单已开启</string>
+    <string name="c_30138">亲,订单已抢应</string>
+    <string name="c_30139">无权操作此工单</string>
+    <string name="c_30140">无效周工作日</string>
+    <string name="c_30156">无效菜品</string>
+    <string name="c_30157">菜名已存在</string>
+    <string name="c_30158">菜名不存在</string>
+    <string name="c_30159">少价格信息或格式错误</string>
+    <string name="input_mobile">请输入手机号码</string>
+    <string name="mobile_err">手机号码格式错误</string>
+    <string name="code_bingo">验证成功</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="code_err">验证码错误</string>
+    <string name="data_err">数据解析出错!</string>
+    <!-- 服务端返回code 结束 -->
+
+</resources>

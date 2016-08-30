@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--侧边栏Fragment-->
+
+    <!--用户信息LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp" >
+        <!--用户信息RelativeLayout(不明白为何嵌套)-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+             >
+            <!--用户头像-->
+            <com.jizhi.hududu.uclient.widget.CircleImageView
+                android:id="@+id/head"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/user_head"
+                android:layout_centerVertical="true"
+                 />
+            <!--标语透明图片-->
+            <ImageView
+                android:id="@+id/font"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_toRightOf="@id/head"
+                android:src="@drawable/font" />
+            <!--账号RelativeLayout-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@id/head"
+                android:layout_below="@id/font"
+                android:layout_toRightOf="@id/head" >
+                <!--"账号"Button-->
+                <Button
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/yuan_shape2"
+                    android:text="账号:"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_13" />
+                <!--"账户"电话号码-->
+                <TextView
+                   	android:id="@+id/mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/userName"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/userName"
+                    android:gravity="center"
+                    android:text="182******46186"
+                    android:textColor="#c3c6c5"
+                    android:textSize="@dimen/text_size_15" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--分割线-->
+    <View
+        style="@style/line_view1"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="0dp"
+        android:background="@color/gray3" />
+    <!--ListView-->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="10dp"
+        android:listSelector="@drawable/list_bg_selector"
+        android:divider="#454847"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>
